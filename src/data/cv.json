@@ -1,0 +1,48 @@
+{
+  "education": [
+    {
+      "title": "Komvux | 2025-05-26 / 2025-06-06",
+      "description": "Fristående kurs - Programmering 1 | Python"
+    },
+
+    {
+      "title": "YH Chas Academy - Fullstackutvecklare .NET | 2025-09-01 - 2027-05-23 (pågående)",
+      "description": "Jag studerar till fullstackutvecklare med inriktning mot .NET, där jag utvecklar kunskaper inom både frontend- och backendutveckling."
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Butiksmedarbetare Lidl | 2023-01-15 / 2026-02-18",
+      "skills": [
+        "Stresstålighet",
+        "Problemlösning",
+        "Strukturerat arbetssätt",
+        "Samarbetsförmåga",
+        "Kundbemötande"
+      ]
+    },
+
+    {
+      "title": "Lagermedarbetare KICKS | 2021-04-20 / 2022-11-08",
+      "skills": [
+        "Noggrannhet",
+        "Logiskt tänkande",
+        "Effektivitet",
+        "Ansvarstagande",
+        "Struktur"
+      ]
+    }
+  ],
+
+  "certificates": [
+    {
+      "title": "Fullstack utvecklare (Nybörjarnivå)"
+    },
+
+    {
+      "title": "UI/UX Design",
+      "description": "Grundläggande förståelse för användarvänliga gränssnitt."
+    }
+  ]
+}
