@@ -24,12 +24,6 @@ export default function Contact() {
             </p>
 
             <p>
-              <strong>Telefon:</strong>
-              <br />
-              0763276455
-            </p>
-
-            <p>
               <strong>LinkedIn:</strong>
               <br />
 

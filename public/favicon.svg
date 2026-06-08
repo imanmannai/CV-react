@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="IM heart logo">
+  <title>IM Heart Logo</title>
+  <rect width="512" height="512" rx="96" fill="transparent"/>
+  <g transform="translate(48 104)">
+    <text x="0" y="230"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="190"
+          font-weight="800"
+          letter-spacing="-8"
+          fill="#111827">IM</text>
+    <path fill="#e11d48"
+          d="M337.7 97.6c-23.6-23.6-61.9-23.6-85.5 0l-10.2 10.2-10.2-10.2c-23.6-23.6-61.9-23.6-85.5 0-23.6 23.6-23.6 61.9 0 85.5l95.7 95.7 95.7-95.7c23.6-23.6 23.6-61.9 0-85.5z"
+          transform="translate(118 50) scale(0.86)"/>
+  </g>
+</svg>

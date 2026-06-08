@@ -19,7 +19,7 @@ function App() {
 
       <footer className="site-footer">
       <p>
-        © 2026 Imen Mannai.
+        © 2026 Iman Mannai.
         Alla rättigheter förbehållna.
         | Integritetspolicy | Villkor
       </p>
