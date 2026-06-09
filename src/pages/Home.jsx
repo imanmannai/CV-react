@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import profileImg from "../assets/profile.png";
-import eggsImg from "../assets/eggs.jpg";
 import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 
@@ -14,33 +13,6 @@ import { PiGraduationCapLight } from "react-icons/pi";
 
 export default function Home() {
 
-  const [showEgg, setShowEgg] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-
-  useEffect(() => {
-
-    let typing = "";
-
-    const handleKeyDown = (e) => {
-
-      typing += e.key.toLowerCase();
-
-      if (typing.includes("iman")) {
-
-        setShowModal(true);
-
-        typing = "";
-      }
-    };
-
-    document.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-
-  }, []);
-
   return (
     <>
 
@@ -50,10 +22,7 @@ export default function Home() {
 
         <div className="hero-title">
 
-          <h1
-            id="surprise"
-            onClick={() => setShowEgg(!showEgg)}
-          >
+          <h1>
             IMAN MANNAI
           </h1>
 
@@ -68,16 +37,6 @@ export default function Home() {
           </div>
 
         </div>
-
-        {showEgg && (
-
-          <img
-            src={eggsImg}
-            alt="easter egg"
-            id="easteregg"
-          />
-
-        )}
 
         <div className="profile-container">
 
@@ -140,29 +99,6 @@ export default function Home() {
           </Link>
 
         </nav>
-
-        {showModal && (
-
-          <div className="modal">
-
-            <div className="modal-content">
-
-              <span
-                className="close"
-                onClick={() => setShowModal(false)}
-              >
-                X
-              </span>
-
-              <h3>WHOPTYDOOO!</h3>
-
-              <p>OPPSIEE</p>
-
-            </div>
-
-          </div>
-
-        )}
 
       </div>
 
