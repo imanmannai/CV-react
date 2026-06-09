@@ -8,9 +8,9 @@ export default function Navbar() {
   return (
     <div className="top-navbar">
 
-      <div className="navbar-logo">
+      <Link to="/" className="navbar-logo">
         IMAN MANNAI
-      </div>
+      </Link>
 
       <button
         className="menu-button"
