@@ -2,7 +2,7 @@
     --bg-color: #f2f2f2;
     --card-bg: #ffffff;
     --text-main: #1a1a1a;
-    --accent: #77907a;
+    --accent: #8B7D6B;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -337,38 +337,75 @@ h1 {
 
 /* ---------------- CONTACT ---------------- */
 
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 3rem;
+  letter-spacing: 6px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  color: #333;
+}
+
 .contact-card {
-    background: white;
-    padding: 35px;
-    border-radius: 20px;
-    max-width: 700px;
-    margin: 20px auto;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-.contact-card h4 {
-    margin-bottom: 15px;
-    font-size: 1.3rem;
+.contact-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.contact-card p {
-    line-height: 1.7;
-    margin-top: 15px;
+.contact-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 40px;
 }
 
-.contact-info {
-    margin-top: 20px;
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.contact-info a {
-    color: blue;
-    text-decoration: underline;
-    transition: var(--transition);
+.contact-btn {
+  background: #C8A97E;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-.contact-info a:hover {
-    color: var(--accent);
+.contact-btn:hover {
+  background: #B89667;
+  transform: translateY(-2px);
+}
+.contact-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
 }
 
 /* ---------------- MODAL ---------------- */

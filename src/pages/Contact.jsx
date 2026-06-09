@@ -9,33 +9,31 @@ export default function Contact() {
 
         <div className="contact-card">
 
-          <h4>Hör gärna av dig!</h4>
+          <h2>Låt oss komma i kontakt</h2>
 
-          <p>
-            Du når mig enklast på följande sätt:
+          <p className="contact-text">
+            Söker du en fullstackutvecklare för praktik, samarbete eller framtida
+            anställning? Jag ser alltid fram emot nya möjligheter och intressanta
+            projekt.
           </p>
 
-          <div className="contact-info">
+          <div className="contact-buttons">
 
-            <p>
-              <strong>Mejl:</strong>
-              <br />
-              iman.mannai@chasacademy.se
-            </p>
+            <a
+              href="mailto:iman.mannai@chasacademy.se"
+              className="contact-btn"
+            >
+              📧 Skicka e-post
+            </a>
 
-            <p>
-              <strong>LinkedIn:</strong>
-              <br />
-
-              <a
-                href="https://www.linkedin.com/in/iman-mannai-aa5632382"
-                target="_blank"
-                rel="noreferrer"
-              >
-                iman-mannai
-              </a>
-
-            </p>
+            <a
+              href="https://www.linkedin.com/in/iman-mannai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-btn"
+            >
+              💼 LinkedIn
+            </a>
 
           </div>
 
